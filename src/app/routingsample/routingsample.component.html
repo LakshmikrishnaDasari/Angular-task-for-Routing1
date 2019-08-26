@@ -1,0 +1,9 @@
+<div class="ui-g-12">
+<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
+    <h1 style="font-weight:normal">Left Sidebar</h1>
+<ul>
+    <li routerLink='/parent'>Parent</li>
+</ul>
+</p-sidebar>
+</div>
+<button pButton type="button" (click)="visibleSidebar1 = true" icon="pi pi-arrow-right"></button>

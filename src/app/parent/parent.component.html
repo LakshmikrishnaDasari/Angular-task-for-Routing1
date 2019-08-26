@@ -1,0 +1,14 @@
+<p>parent works!</p>
+
+<ul>
+    <li (click)= "onselect(dep)" *ngFor= "let dep of departs">
+        <span>{{dep.id}}</span>{{dep.name}}
+
+    </li>
+</ul>
+
+<!-- <button  *ngIf="this.isButtonVisible" (click)="this.isButtonVisible = false">
+    hpk
+</button> -->
+
+<!-- <div *ngFor="let v of values1; let i=index">{{i+1}}.{{ v }}</div> -->
